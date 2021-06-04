@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+}
+.button{
+    width: 65px;
+    height: 65px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    background-color: #333333;
+    color: white;
+    border: 0;
+}
+.button:hover{
+    background-color: rgb(8, 243, 125);
+}
+.textview{
+    width: 280px;
+    padding: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    text-align: right;
+    font-size: 20px;
+    color: #333333;
+    margin-top: 10px;
+
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+main{
+    background-color: rgb(22, 12, 12);
+    width: 350px;
+    height: 500px;
+    margin: 0 auto;
+    display: grid;
+    margin-top: 100px;
+}
+table{
+
+    margin: 0 auto;
+}
